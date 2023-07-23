@@ -1,0 +1,269 @@
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+    
+header {
+    background: linear-gradient( #3a11ce, #7f66d8, #8f7dd0);
+}
+header nav h1 {
+	margin: 0;
+	text-transform: uppercase;
+}
+
+.droite a{
+    text-decoration: none;
+    color: white;
+}
+header nav {
+    padding: 30px 5% 0px 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Menu à droite de notre header */
+header nav .droite {
+	display: flex;
+	align-items: center;
+}
+header nav .droite p {
+	margin: 0 15px 0 0;
+	color: #ccc;
+}
+header nav .droite p:hover {
+	color: white;
+	cursor: pointer;
+}
+
+header nav .droite button {
+	padding: 5px 15px;
+	font-size: 16px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.presentation1 {
+	padding: 30px 5%;
+	margin-top: 5%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.presentation1 .produit-presentation {
+	width: 100%;
+	flex-shrink: 3;
+}
+.presentation1 .produit-presentation h1 {
+	margin: 0;
+	font-size: 50px;
+	width: 80%;
+}
+.presentation1 .produit-presentation p {
+	font-weight: 300;
+	color: #e9e9e9;
+}
+.p1 .produit-presentation .item-img1 {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+.presentation1 .produit-presentation button {
+	margin-top: 20px;
+	padding: 15px 20px;
+	font-size: 15px;
+	border-radius: 10px;
+    border: 1px solid white;
+}
+
+.presentation1 .image-presentation img {
+	width: 100%;
+}
+
+.p1 .produit-presentation .item-img1 .items {
+	padding: 20px;
+    height: 120px;
+	background-color: #7f66d8;
+	margin: 0 15px 15px 0;
+	border-radius: 20px;
+}
+
+.p1 .produit-presentation .item-img1 .items img {
+	width: 120px;
+}
+
+
+/* Notre deuxieme section */
+.p2 {
+	background-color: #482fa5;
+    height: 500px;
+    color: white;
+    display: flex;
+}
+.presentation2 {
+	width: 100%;
+	/* height: auto; */
+}
+.p2 .produit-presentation .nouveau {
+    margin-top: 50px;
+    margin-left: 30px;
+	color: white;
+}
+.p2 h1{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.p2 p{
+    margin: 30px;
+}
+.p2 .produit-presentation button {
+    border-radius: 10px;
+    margin: 30px;
+    padding: 10px;
+}
+.np h2{
+	margin-top: 10px;
+	margin-left: 20px;
+	color: white;
+}
+.nosProduit{
+	background-color: #6b58b0c2;
+	color: black;
+	/* width: 80%; */
+	/* margin-left: 10%; */
+}
+
+.nosProduit .card{
+	color: white;
+	margin: 20px;
+	background-color: #8f7dd0;
+	/* height: 400px; */
+}
+
+.bp h2{
+	margin-top: 20px;
+}
+
+
+
+.barDeProgression{
+	justify-content: space-around;
+	color: black;
+	height: auto;
+	background-color: #9862c041;
+}
+
+.barDeProgression .progress{
+	margin-top: 20px;
+	height: 30px;
+}
+
+footer .cont1{
+	text-align: left;
+	border: 1px solid white;
+}
+footer .cont1 input{
+	text-decoration: none;
+	background: none;
+	text-transform: none;
+	border: none;
+	color: white;
+	border-bottom: 1px solid white;
+	padding: 10px;
+}
+footer .cont1 select{
+	background:none;
+	padding: 12px;
+	text-transform: none;
+	border: none;
+	border-bottom: 2px solid white;
+
+} 
+
+footer .row .col-md-2 {
+	margin-top: 50px;
+	
+	/* background:none; */
+}
+footer .row .col-md-3 {
+	margin-top: 46px;
+	
+	/* background:none; */
+}
+
+footer .row .form-control{
+	background-color: rgb(30, 30, 30);
+	color: white;
+}
+
+/* footer form{
+	width: 60%;
+	margin-left: 5%;
+} */
+/* 
+footer {
+    
+	text-align: center;
+	margin: 0;
+	padding: 20px;
+	height: auto;
+	background-color: rgb(159, 102, 205);
+	
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+footer .notrefooter{
+	width: 100%;
+	display: flex;
+}
+footer .div1{
+	text-align: left;
+	width: 30%;
+}
+
+footer .div1 .btnAnnuler{
+	float: right;
+}
+footer .div2{
+	
+	
+	margin-left: 20px;
+	width: 2px;
+	background-color: yellow;
+}
+footer .div3{
+	width: 69%;
+	flex-direction: row;
+	text-align: left;
+	margin: 20px;
+}
+
+footer h2 {
+	color: white;
+}
+
+footer a{
+	color: white;
+    text-decoration: none;
+}
+
+
+footer .row input{
+	text-decoration: none;
+	background: none;
+	text-transform: none;
+	border: none;
+	border-bottom: 1px solid white;
+}
+footer .row select{
+	background:none;
+	text-transform: none;
+	border: none;
+	border-bottom: 1px solid white;
+
+} */
